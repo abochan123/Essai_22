@@ -11,6 +11,16 @@
 		E5E0FCC6279D57970000908C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E0FCC5279D57970000908C /* ContentView.swift */; };
 		E5E0FCC8279D57990000908C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E0FCC7279D57990000908C /* Assets.xcassets */; };
 		E5E0FCCB279D57990000908C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E0FCCA279D57990000908C /* Preview Assets.xcassets */; };
+		E5E0FCD9279D5AA10000908C /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E0FCD8279D5AA10000908C /* ItemModel.swift */; };
+		E5E0FCEE279D5E540000908C /* s_oi.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E0FCE8279D5E520000908C /* s_oi.wav */; };
+		E5E0FCEF279D5E540000908C /* s_ou.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E0FCE9279D5E530000908C /* s_ou.wav */; };
+		E5E0FCF0279D5E540000908C /* s_au.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E0FCEA279D5E530000908C /* s_au.wav */; };
+		E5E0FCF1279D5E540000908C /* s_an.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E0FCEB279D5E530000908C /* s_an.wav */; };
+		E5E0FCF2279D5E540000908C /* s_in.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E0FCEC279D5E530000908C /* s_in.wav */; };
+		E5E0FCF3279D5E540000908C /* s_ai.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E0FCED279D5E530000908C /* s_ai.wav */; };
+		E5E0FCF5279D672D0000908C /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E0FCF4279D672D0000908C /* AppIcon.png */; };
+		E5E0FCF8279D707B0000908C /* s_on.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E0FCF6279D707A0000908C /* s_on.wav */; };
+		E5E0FCF9279D707B0000908C /* s_et.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5E0FCF7279D707A0000908C /* s_et.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		E5E0FCC5279D57970000908C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E5E0FCC7279D57990000908C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5E0FCCA279D57990000908C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E5E0FCD8279D5AA10000908C /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		E5E0FCE8279D5E520000908C /* s_oi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = s_oi.wav; sourceTree = "<group>"; };
+		E5E0FCE9279D5E530000908C /* s_ou.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = s_ou.wav; sourceTree = "<group>"; };
+		E5E0FCEA279D5E530000908C /* s_au.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = s_au.wav; sourceTree = "<group>"; };
+		E5E0FCEB279D5E530000908C /* s_an.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = s_an.wav; sourceTree = "<group>"; };
+		E5E0FCEC279D5E530000908C /* s_in.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = s_in.wav; sourceTree = "<group>"; };
+		E5E0FCED279D5E530000908C /* s_ai.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = s_ai.wav; sourceTree = "<group>"; };
+		E5E0FCF4279D672D0000908C /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		E5E0FCF6279D707A0000908C /* s_on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = s_on.wav; sourceTree = "<group>"; };
+		E5E0FCF7279D707A0000908C /* s_et.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = s_et.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +73,10 @@
 			children = (
 				E5E0FCC3279D57970000908C /* Essai_2App.swift */,
 				E5E0FCC5279D57970000908C /* ContentView.swift */,
+				E5E0FCD8279D5AA10000908C /* ItemModel.swift */,
+				E5E0FCD1279D59850000908C /* Ressource */,
 				E5E0FCC7279D57990000908C /* Assets.xcassets */,
+				E5E0FCF4279D672D0000908C /* AppIcon.png */,
 				E5E0FCC9279D57990000908C /* Preview Content */,
 			);
 			path = "Essai 2";
@@ -65,6 +88,21 @@
 				E5E0FCCA279D57990000908C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E5E0FCD1279D59850000908C /* Ressource */ = {
+			isa = PBXGroup;
+			children = (
+				E5E0FCE8279D5E520000908C /* s_oi.wav */,
+				E5E0FCED279D5E530000908C /* s_ai.wav */,
+				E5E0FCE9279D5E530000908C /* s_ou.wav */,
+				E5E0FCEB279D5E530000908C /* s_an.wav */,
+				E5E0FCEA279D5E530000908C /* s_au.wav */,
+				E5E0FCEC279D5E530000908C /* s_in.wav */,
+				E5E0FCF7279D707A0000908C /* s_et.wav */,
+				E5E0FCF6279D707A0000908C /* s_on.wav */,
+			);
+			path = Ressource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +163,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E0FCEE279D5E540000908C /* s_oi.wav in Resources */,
+				E5E0FCF0279D5E540000908C /* s_au.wav in Resources */,
+				E5E0FCF2279D5E540000908C /* s_in.wav in Resources */,
+				E5E0FCF3279D5E540000908C /* s_ai.wav in Resources */,
+				E5E0FCEF279D5E540000908C /* s_ou.wav in Resources */,
+				E5E0FCF8279D707B0000908C /* s_on.wav in Resources */,
+				E5E0FCF1279D5E540000908C /* s_an.wav in Resources */,
 				E5E0FCCB279D57990000908C /* Preview Assets.xcassets in Resources */,
+				E5E0FCF9279D707B0000908C /* s_et.wav in Resources */,
+				E5E0FCF5279D672D0000908C /* AppIcon.png in Resources */,
 				E5E0FCC8279D57990000908C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E0FCD9279D5AA10000908C /* ItemModel.swift in Sources */,
 				E5E0FCC6279D57970000908C /* ContentView.swift in Sources */,
 				E5E0FCC4279D57970000908C /* Essai_2App.swift in Sources */,
 			);
